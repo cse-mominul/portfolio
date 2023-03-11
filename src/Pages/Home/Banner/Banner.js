@@ -13,12 +13,12 @@ const Banner = () => {
                         </div>
                     </div>
                     <div data-aos="fade-up-right" className='px-5'>
-                        <h1 className="text-5xl font-bold animate__animated animate__bounce animate__faster animate__animated animate__fadeInRight animate__bounceOutLeft">Hey _______</h1>
-                        <h1 className="animate__animated animate__bounce text-7xl font-bold mt-4 animate__faster animate__animated animate__fadeInLeft">I am Momin Islam</h1>
-                        <h3 className="text-3xl font-bold mt-5 animate__animated animate__bounce animate__repeat-2">MERN Stack Developer</h3>
+                        <h1 className="text-white text-5xl font-bold animate__animated animate__bounce animate__faster animate__animated animate__fadeInRight animate__bounceOutLeft">Hey, I'm </h1> <span className="colourText text-5xl font-bold animate__animated animate__bounce animate__faster animate__animated animate__fadeInRight animate__bounceOutLeft"> Momin </span>
+                        <p className="text-white text-xl italic mt-5 animate__animated animate__bounce animate__repeat-2"> I devlop beautiful user interfaces, </p> 
+                        <p className="text-white text-xl italic animate__animated animate__bounce animate__repeat-2">and dynamic web applications.</p>
                         <div className='mt-8 flex items-center'>
-                            <button id="my-modal-5" className="bg-slate-300 py-3 rounded w-36 font-bold">HIRE ME</button>
-                            <a href='https://drive.google.com/file/d/14eexCO0NYex-qiXzD-IzAQfPFQjsywvB/view?usp=share_link'><button className="bg-slate-300 w-36 ml-10 font-bold rounded ">DOWNLOAD RESUME</button></a>
+                            <button id="my-modal-5" className=" border-2  shadow-white text-white py-3 rounded w-36 font-bold">Hire Me</button>
+                            <a href='https://drive.google.com/file/d/14eexCO0NYex-qiXzD-IzAQfPFQjsywvB/view?usp=share_link'><button className="ml-5 border-2  shadow-white text-white py-3 rounded w-36 font-bold">Resume</button></a>
                         </div>
                     </div>
                 </div>

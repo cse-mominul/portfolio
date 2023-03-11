@@ -10,38 +10,47 @@ const Survices = () => {
     const services = [
         {
             id: 1,
-            image: img1,
-            title: "WEB DEVELOPMENT",
-            description: "I provide my best feature when I develop any website. I always try to use the good and unique features of building a website."
+            image: "https://i.ibb.co/hcw4jSM/New-Project-2.png",
+            title: "Web Developer",
+            description: ""
         },
         {
             id: 2,
-            image: img2,
-            title: "WORDPRESS DEVELOPMENT",
-            description: "I can build any type of WordPress website. I use the best WordPress plugin to develop. I also can do customize any WordPress site."
+            image: "https://i.ibb.co/QdVLLhC/full-stack-developer-mern-1024x1024-1-1024x1024.png",
+            title: "MERN Stack Developer",
+            description: ""
         },
         {
             id: 3,
-            image: img3,
-            title: "WEB DESIGN",
-            description: "I provide web design services and try to give unique and user interface design on the website. I provide smooth any standard web template."
+            image: "https://i.ibb.co/3h25TqM/New-Project.png",
+            title: "Backend",
+            description: ""
         },
         {
             id: 4,
-            image: img4,
-            title: "WEBSITE SEO",
-            description: "I provide SEO service to the process of growing the quality and quantity of website traffic by increasing the visibility of a website."
+            image: "https://i.ibb.co/4NJMrSf/New-Project-1.png",
+            title: "Content Creator",
+            description: ""
         },
     ]
     return (
-        <section>
+        <section className="bgColor">
             <div data-aos="fade-up-left" className='mb-12 px-5'>
-                <h1 className='text-center text-5xl font-bold mb-5 mt-12'>SERVICES OFFER</h1>
-                <p className='text-center'>My service is Web Design, Web Development, Wordpress development and Customize, Search Engine Optimization. <br></br> I also do customize and develop any website.</p>
+                 <div className='flex justify-center'>
+                <progress className="progress w-56 text-center bg-sky-600 text-pink-100"></progress>
             </div>
-            <div className='flex justify-center'>
-                <progress className="progress w-56 text-center text-secondary bg-slate-300"></progress>
+                <h3 className='ml-6 text-white text-xl font-bold mt-12'>Introduction</h3>
+                <h1 className='ml-6 text-white text-center text-5xl font-bold mb-5'>Overview.</h1>
+                <p className="ml-6 mr-6 text-white max-w-lg">Hello and Welcome ! I am a full stack web developer with 2 years of experience in React JS,
+                     Next JS, JavaScript, Bootstrap, and Tailwind. I specialize in creating visually appealing and 
+                     responsive websites and web applications that are optimized for both desktop and mobile devices.
+                      I am proficient in JavaScript, Bootstrap, and other libraries, which
+                     allows me to create interactive, responsive, and dynamic web pages that are sure to leave a
+                      lasting impression. Let's work together to elevate your online presence and achieve success
+                       beyond your expectations. </p>
+                
             </div>
+           
             <div className='mt-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5 p-4 serviceOverlay'data-aos="fade-up-right">
                 {
                     services.map(service => <SingleService

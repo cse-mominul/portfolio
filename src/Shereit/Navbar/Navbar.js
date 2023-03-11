@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../Asstes/Icon/navbarLogo.png'
 
 const Navbar = () => {
     const scroll = (p) => {
@@ -35,31 +34,27 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl"><img className='bg-yellow-200 w-14' src={logo}></img></Link>
+                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl"><img className='w-14' src="https://i.ibb.co/gdBYDB1/New-Project-6.png"></img></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li>
-                        <Link to="/"><button onClick={() => scroll(0)} className="ml-2 text-lg hover:text-secondary">Home</button></Link>
+                        <Link to="/"><button onClick={() => scroll(0)} className="text-white ml-2 text-lg hover:text-secondary">Home</button></Link>
                     </li>
                     <li>
-                        <button onClick={() => scroll(2000)} className=" text-lg hover:text-secondary">Project</button>
+                        <button onClick={() => scroll(2000)} className=" text-white text-lg hover:text-secondary">Project</button>
                     </li>
                     <li>
-                        <button onClick={() => scroll(500)} className="text-lg hover:text-secondary">Service</button>
+                        <button onClick={() => scroll(500)} className=" text-white text-lg hover:text-secondary">Service</button>
                     </li>
                     <li>
-                        <button onClick={() => scroll(3100)} className="text-lg hover:text-secondary">Skill</button>
+                        <button onClick={() => scroll(3100)} className=" text-white text-lg hover:text-secondary">Skills</button>
                     </li>
                     <li>
-                        <button onClick={() => scroll(1200)} className=" text-lg hover:text-secondary">About</button>
-                    </li>
-
-                    <li>
-                        <Link className=" text-lg hover:text-secondary" to="/blog"> <button>Blog</button></Link>
+                        <button onClick={() => scroll(1200)} className="text-white text-lg hover:text-secondary">About</button>
                     </li>
                     <li>
-                        <button onClick={() => scroll(3800)} className=" text-lg hover:text-secondary">Contact</button>
+                        <button onClick={() => scroll(3800)} className=" text-white text-lg hover:text-secondary">Contact</button>
                     </li>
 
                 </ul>

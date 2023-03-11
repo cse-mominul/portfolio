@@ -2,6 +2,9 @@ import React from 'react';
 import image from '../../../Asstes/Image/about-us.png'
 const Introduce = () => {
     return (
+        <div>
+            <h3 className='text-center text-white text-xl font-bold mt-12'>WHAT I HAVE DONE SO FAR</h3>
+            <h3 className='text-center text-white text-5xl font-bold mt-2'>Training Background.</h3>
         <div className="hero min-h-screen  mt-24">
             <div className="hero-content flex-col lg:flex-row">
                 <img data-aos="fade-up-right" className='w-50' src={image} alt='' />
@@ -16,6 +19,7 @@ const Introduce = () => {
                     <a href="https://drive.google.com/file/d/1xqbGIZYUJH7Zl_KYU3oW4ZiXv52JCi5e/view?usp=share_link"><button className="bg-gray-400 rounded py-3 rounded w-36 font-bold hover:bg-gray-500 border">DOWNLOAD CV</button></a>
                 </div>
             </div>
+        </div>
         </div>
     );
 };
