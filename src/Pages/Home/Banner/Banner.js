@@ -18,7 +18,7 @@ const Banner = () => {
                         <p className="text-white text-xl italic animate__animated animate__bounce animate__repeat-2">and dynamic web applications.</p>
                         <div className='mt-8 flex items-center'>
                             <button id="my-modal-5" className=" border-2  shadow-white text-white py-3 rounded w-36 font-bold">Hire Me</button>
-                            <a href='https://drive.google.com/file/d/14eexCO0NYex-qiXzD-IzAQfPFQjsywvB/view?usp=share_link'><button className="ml-5 border-2  shadow-white text-white py-3 rounded w-36 font-bold">Resume</button></a>
+                            <a href='https://drive.google.com/file/d/1Hnv_2VhlhWp3gtVinlYDIDgp7AjzvfkY/view?usp=share_link'><button className="ml-5 border-2  shadow-white text-white py-3 rounded w-36 font-bold">Resume</button></a>
                         </div>
                     </div>
                 </div>
