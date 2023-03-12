@@ -1,5 +1,4 @@
 import React from 'react';
-import img1 from '../../../Asstes/mominul.jpg'
 import './Banner.css'
 const Banner = () => {
 
@@ -9,7 +8,7 @@ const Banner = () => {
                 <div className="flex items-center justify-around lg:flex-row-reverse flex-col lg:flex-row">
                     <div className="avatar">
                         <div data-aos="fade-up-left" className="w-80 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
-                            <img src={img1} alt='' />
+                            <img src='https://i.ibb.co/f28fDzq/Xc.jpg' alt='' />
                         </div>
                     </div>
                     <div data-aos="fade-up-right" className='px-5'>
