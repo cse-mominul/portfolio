@@ -25,7 +25,8 @@ const Projects = () => {
     // ]
     return (
         <div className='mt-16'>
-            <h1 className='text-5xl text-black text-center font-semibold'>MY PROJECTS</h1>
+           <h3 className='ml-6 text-white text-xl font-bold mt-12'>My Work</h3>
+                <h1 className='ml-6 text-white text-center text-5xl font-bold mb-5'>Projects.</h1>
             <div className='text-center mt-5'>
                 <progress className=" bg-gray-300  w-60 text-center h-2"></progress>
             </div>
