@@ -1,8 +1,4 @@
 import React from 'react';
-import img1 from '../../Asstes/Icon/s1.png'
-import img2 from '../../Asstes/Icon/s2.png'
-import img3 from '../../Asstes/Icon/s3.png'
-import img4 from '../../Asstes/Icon/s4.png'
 import SingleService from './SingleService';
 import './Service.css'
 

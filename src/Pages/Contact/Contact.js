@@ -5,10 +5,11 @@ const Contact = () => {
         event.preventDefault()
     }
     return (
-        <div className='mb-32'>
-            <h2 className='text-5xl text-center font-semibold mb-7 text-black'>Contact Me</h2>
-            <div className='flex justify-center mb-5'>
-                <progress className="h-2 w-60 text-center text-secondary "></progress>
+        <div className='mb-32 '>
+           <h3 className='ml-10 text-white text-xl font-bold mt-12'>Time to </h3>
+            <h1 className='ml-10 text-white text-center text-5xl font-bold mb-5'>Contact Me.</h1>
+            <div className='flex justify-center'>
+                <progress className="progress w-56 text-center bg-sky-600 text-pink-100"></progress>
             </div>
             <form onClick={handleSubmit}>
                 <div data-aos="fade-up-right" className='w-full mt-24 text-center'>

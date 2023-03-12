@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     return (
 
         <div data-aos="flip-right" className="card bg-base-100 shadow-xl">
-            <figure><img src={image} className="h-50" alt="Shoes" /></figure>
+            {/* <figure><img src={image} className="" alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">
                     <div className=" text-white font-bold text-2xl">{title}</div>
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
                     <div className="badge badge-outline">Firebase</div>
                 </div>
             </div>
-            <button className="btn btn-outline btn-secondary">View Details</button>
+            <button className="btn btn-outline btn-secondary">View Details</button> */}
         </div>
     );
 };

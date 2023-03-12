@@ -88,8 +88,14 @@ const Introduce = () => {
         </div>
 
         </div>
-        <div className=''>
-        <img className='w-13 shadow-md bg-blend-hard-light  border-2  shadow-white border-red h-13 rounded-full bg-white' src='https://i.ibb.co/Bc4B7Sx/reactjs.png'/>
+        <div className='ml-20 mt-20 flex justify-evenly'>
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all shadow-md bg-blend-hard-light  border-2  shadow-white border-red h-12  rounded-full bg-white' src='https://i.ibb.co/Bc4B7Sx/reactjs.png'/>
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white' src="https://i.ibb.co/g3tfXNh/New-Project-7.png"/>
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all p-1 shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white' src='https://i.ibb.co/syCFhxQ/New-Project-8.png' />
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white p-1' src='https://i.ibb.co/2PNP9Sg/New-Project-9.png' />
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white' src='https://i.ibb.co/LQYRB53/New-Project-10.png' />
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all p-1 shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white' src='https://i.ibb.co/272rFVr/New-Project-11.png' />
+        <img className='w-12 hover:shadow-xl hover:translate-y-6 hover:transition-all p-1 shadow-md bg-blend-hard-light  ml-2 border-2  shadow-white border-red h-12 rounded-full bg-white' src='https://i.ibb.co/VJhjYk0/New-Project-12.png' />
         </div>
         
 
