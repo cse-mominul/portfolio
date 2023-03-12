@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+        <footer className="footer footer-center font-bold text-bold p-4 bg-white  text-blue-800">
             <div>
-                <p>Copyright © 2022 - All right reserved by Mominul Islam</p>
+                <p>Copyright © 2023 - All right reserved by Mominul Islam</p>
             </div>
         </footer>
     );
