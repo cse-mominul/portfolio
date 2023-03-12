@@ -26,7 +26,7 @@ const Projects = () => {
                             <div className="badge text-white badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/details'><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
+                    <Link to=''><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
                 </div>
 
                 <div data-aos="flip-right" className="bgColor2 card  shadow-md bg-blend-hard-light  border-b-2  shadow-white border-white rounded-md p-2  ">
@@ -46,7 +46,7 @@ const Projects = () => {
                             <div className="badge text-white badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/details'><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
+                    <Link to=/details'><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
                 </div>
 
                 <div data-aos="flip-right" className="bgColor2 card  shadow-md bg-blend-hard-light  border-b-2  shadow-white border-white rounded-md p-2  ">
@@ -66,7 +66,7 @@ const Projects = () => {
                             <div className="badge text-white badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/details'><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
+                    <Link to=''><button className=" w-full border-2  shadow-white text-white py-3 rounded w-36 font-bold">View Details</button></Link>
                 </div>
             </div>
         </div>
